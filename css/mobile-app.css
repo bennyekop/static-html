@@ -1,0 +1,1056 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.header {
+	background-image: url("../images/bg-img.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center; 
+	height: 600px;
+}
+
+.header-content {
+	background-color: #fff;
+	height: 80px;
+}
+
+.logo-img {
+	width: 195px;
+	padding: 4.7% 6%;
+}
+
+.nav-link{
+	background: transparent;
+	border-color: transparent; 
+}
+
+.nav-link li {
+	position: relative;
+	top: 2px;
+	right: 10%;
+}
+
+.nav-link li a {
+	color: #000 !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 25px 16px;
+}
+
+.nav-link .home a{
+	color: #6b59ef !important;
+}
+
+.download-app-btn {
+    color: #fff;
+    background-color: #6b59ef;
+    border-color: #6b59ef;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 50px;
+	padding: 11px 28px;
+	position: relative;
+	bottom: 10px;
+}
+
+.app {
+	color: #fff;
+}
+
+.app h1 {
+	width: 45.5%;
+    padding: 26px;
+    font-size: 32px;
+} 
+
+.app p {
+	width: 44%;
+	padding: 2.8%;
+	font-size: 13px;
+	padding-top: 0px;
+	padding-bottom: 18px;
+
+}
+
+.mobile-img{
+	position: absolute;
+	width: 49%;
+	top: -45.6px;
+	left: 43%;
+}
+
+.feature {
+	text-align: center;
+}
+
+.feature h3{
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.feature:after {
+	border-bottom: 1px solid #897af2;
+	content: "";
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    right: 0px;
+    width: 100px;
+}
+
+.feature-p {
+	text-align: center;
+	width: 40%;
+	position: relative;
+	left: 31%;
+	font-size: 13px;
+	padding-bottom: 4%;
+}
+
+
+.big-btn{
+	padding: 5px 32px;
+	border-radius: 50px;
+	background: #989898;
+	border-color: #989898;
+	position: relative;
+	left: 2%;
+}
+
+.big-btn i{
+	font-size: 35px;
+	float: left;
+	right: 21%;
+	top: 2px;
+	position: relative;
+}
+.big-btn strong{
+	font-size: 12px;
+	color: #fff;
+	position: relative;
+	right: 1px;
+}
+
+.big-btn small {
+	font-size: 9px !important;
+	font-weight: bold;
+	bottom: 7px;
+	position: relative;
+}
+
+.android-btn{
+	padding: 5px 33px;
+	background-color: #6b59ef;
+	border-color: #6b59ef;
+	border-radius: 50px;
+	position: relative;
+	left: 2.9%;
+}
+
+.android-btn:hover{
+	background-color: #272727;
+}
+
+.android-btn i{
+	font-size: 35px;
+	float: left;
+	right: 18%;
+	top: 1px;
+	position: relative;
+	
+}
+
+.btn-text {
+	position: relative;
+	right: 10%;
+	bottom: 0px;
+	text-transform: uppercase;
+}
+
+
+.android-btn strong{
+	font-size: 12px;
+	color: #fff;
+	line-height: 1.3px;
+	position: relative;
+	left: 0px;
+}
+
+
+.android-btn small {
+	font-size: 9px !important;
+	font-weight: bold;
+} 
+
+.fon-img {
+	width: 60%;
+	position: relative;
+	left: 22%;
+}
+
+.responsive h4 {
+	text-align: right;
+	font-size: 16px;
+	font-weight: bold;	
+	position: relative;
+	right: 11px;
+}
+
+.responsive p {
+	font-size: 13px;
+	
+}
+
+.responsive {
+	position: relative;
+	left: 35%;
+}
+
+.mobile-responsive {
+	position: relative;
+	right: 28%;
+}
+
+
+.mobile-responsive h4 {
+	font-size:16px;
+	font-weight: bold;	
+}
+
+.mobile-responsive p {
+	font-size: 13px;
+	
+}
+
+.section {
+	padding-top: 2%;
+	background: #f8f8f8;
+}
+
+.bookmark {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background: #dadada;
+	display: block;
+}
+
+.bookmark:hover {
+	background: #6b59ef;
+	cursor: pointer;
+}
+
+.bookmark i {
+	color: #fff;
+	font-size: 25px;
+	position: relative;
+	left: 16px;
+	top: 11px;
+
+}
+
+.icons {
+	position: relative;
+	left: 8%;
+}
+
+.section2 {
+	background-image: url("../images/section-imgvv2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center; 
+	height: 550px;
+	position: relative;
+	bottom: 55px;
+
+}
+
+
+
+
+.section3 {
+	background-image: url("../images/small-images.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center; 
+	height: 400px;
+	position: relative;
+	bottom: 56px;
+}
+
+.more-features {
+	text-align: left;
+	position: relative;
+	left: 14%;
+
+}
+
+.more-features h3{
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.more-features:after {
+	border-bottom: 1px solid #897af2;
+	content: "";
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    right: 0px;
+    width: 100px;
+}
+
+.p-fon {
+	text-align: left;
+	width: 75%;
+	font-size: 13px;
+	position: relative;
+	left: 14%;
+	padding-bottom: 4%;
+
+} 
+
+.section3-icons {
+	position: relative;
+	left: 14%;
+
+}
+
+.section1 {
+	position: relative;
+	bottom: 48px;
+	padding-top: 3.5%;
+	background: #fff;
+}
+
+.ifon-img {
+	width: 75%;
+	position: relative;
+	bottom: 78px;
+	left: 8%;
+	height: 350px;
+}
+
+
+.screenshots {
+	text-align: center;
+}
+
+.screenshots h3{
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.screenshots:after {
+	border-bottom: 1px solid #897af2;
+	content: "";
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    right: 0px;
+    width: 100px;
+} 
+
+.screenshots-p {
+	text-align: center;
+	width: 40%;
+	position: relative;
+	left: 31%;
+	padding-bottom: 5%;
+	font-size: 13px;
+}
+
+.image {
+	width: 100%;
+	border: 4px solid #ddd;
+	border-radius: 4px;
+
+}
+
+.image-section {
+	position: relative;
+	left: 2.5%;
+}
+
+.section4 {
+	padding-bottom: 3%;
+	position: relative;
+	bottom: 18px;
+
+}
+
+.section5 {
+	background-image: url("../images/email-subscribe.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center; 
+	height: 350px;
+	padding-top: 3%;
+	border-bottom: 4px solid #ddd;
+}
+
+.update {
+	text-align: center;
+}
+
+.update h3{
+	font-weight: 400;
+	color: #fff;
+	font-size: 25px;
+}
+
+.update:after {
+	border-bottom: 1px solid #fff;
+	content: "";
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    right: 0px;
+    width: 100px;
+} 
+
+.update-p {
+	text-align: center;
+	width: 40%;
+	position: relative;
+	left: 31%;
+	padding-bottom: 5%;
+	color: #fff;
+	font-size: 13px;
+}
+
+.updates {
+	width: 40%;
+	left: 32%;
+}
+
+.updates button {
+	padding: 10px 30px;
+	font-weight: bold;
+	background: #000;
+	border-radius: 50px;
+	color: #fff;
+}
+
+.updates button:hover {
+	color: #fff;
+}
+
+.updates button:focus {
+	color: #fff;
+}
+.update-input-field {
+	height: 42px;
+	border-radius: 50px;
+}
+
+.footer {
+	padding-top: 8%;
+	padding-bottom: 2.5%;
+}
+
+.fa-icons {
+	font-size: 15px;
+	color: #fff;
+	background: #d6d6d6;
+	border-radius: 50%;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+
+.fa-icons:hover {
+	font-size: 15px;
+	color: white;
+	background: #6b59ef;
+	border-radius: 50%;
+	padding: 6px 12px;
+}
+
+.fa-icon-t {
+	font-size: 15px;
+	color: #fff;
+	background: #d6d6d6;
+	border-radius: 50%;
+	padding: 6px 8px;
+	cursor: pointer;
+}
+
+.fa-icon-t:hover {
+	font-size: 15px;
+	color: #fff;
+	background: #6b59ef;
+	border-radius: 50%;
+	padding: 6px 8px;
+}
+
+.fa-icon-d {
+	font-size: 15px;
+	color: #fff;
+	background: #d6d6d6;
+	border-radius: 50%;
+	padding: 6px 9px;
+	cursor: pointer;
+}
+
+.fa-icon-d:hover {
+	font-size: 15px;
+	color: #fff;
+	background: #6b59ef;
+	border-radius: 50%;
+	padding: 6px 9px;
+}
+
+.fa-icons-in {
+	font-size: 15px;
+	color: #fff;
+	background: #d6d6d6;
+	border-radius: 50%;
+	padding: 6px 9px;
+	cursor: pointer;
+}
+
+.fa-icons-in:hover {
+	font-size: 15px;
+	color: #fff;
+	background: #6b59ef;
+	border-radius: 50%;
+	padding: 6px 9px;
+}
+
+
+.social-icon {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.half-circle {
+	height: 23px;
+	width: 50px;
+	border-radius: 0 0 90px 90px;
+	background: #dadada;
+	position: absolute;
+	left: 49%;
+	margin-top: 9.3%;
+
+}
+
+.font-awesome {
+	color: #f3f3f3;
+	font-size: 16px !important;
+	position: relative;
+	left: 17px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.copyright h4 {
+	font-weight: 600;
+	color: #d6d6d6;
+	font-size: 15px;
+}
+
+.sub-footer {
+	border-top: 1px solid #d6d6d6;
+	padding: 8px 0px;
+}
+
+.big-btn1{
+	padding: 1px 33px;
+	border-radius: 50px;
+	background: #989898;
+	border-color: #989898;
+	position: relative;
+}
+
+.big-btn1 i{
+	font-size: 35px;
+	float: left;
+	right: 21%;
+	top: 7px;
+	position: relative;
+}
+.big-btn1 strong{
+	font-size: 12px;
+	color: #fff;
+	position: relative;
+	right: 1px;
+}
+
+.big-btn1 small {
+	font-size: 9px !important;
+	font-weight: bold;
+	bottom: 7px;
+	position: relative;
+}
+
+.android-btn1 {
+	padding: 2px 33px;
+	background-color: #6b59ef;
+	border-color: #6b59ef;
+	border-radius: 50px;
+	position: relative;
+}
+
+.android-btn1:hover{
+	background-color: #272727;
+}
+
+.android-btn1 i{
+	font-size: 35px;
+	float: left;
+	right: 18%;
+	top: 6px;
+	position: relative;
+	
+}
+
+.btn-text1 {
+	position: relative;
+	right: 10%;
+	bottom: 0px;
+	text-transform: uppercase;
+}
+
+
+.android-btn1 strong{
+	font-size: 12px;
+	color: #fff;
+	line-height: 1.3px;
+	position: relative;
+	left: 0px;
+}
+
+
+.android-btn1 small {
+	font-size: 9px !important;
+	font-weight: bold;
+}
+
+
+
+/* slider */
+
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 30px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #fff;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+    color: #fff;
+    margin: 125px 0 20px;
+}
+
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.founder {
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+}
+
+
+
+/* Media query */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	.logo-img {
+		width: 150px;
+	}
+	
+	.nav-link li a {
+		font-size: 10px;
+		padding: 15px 8px;
+	}
+	
+	.download-app-btn {
+		padding: 10px 15px;
+	    position: relative;
+	    bottom: 8px;
+	    font-size: 10px;
+	}
+	
+	.header-content {
+		height: 60px;
+	}
+	
+	.header {
+		height: 400px;
+	}
+	
+	.mobile-img {
+		width: 48%;
+	    top: -21.6px;
+	    left: 43%;
+	}
+	
+	.app h1 {
+		width: 45%;
+	    padding: 2%;
+	    font-size: 20px;
+	}
+	
+	.app p, .feature-p, .mobile-responsive p, .responsive p, .p-fon, .icons p, .screenshots-p, .update-p {
+		font-size: 10px;
+	}
+	
+	.big-btn {
+		padding: 2px 28px;
+	}
+	
+	.big-btn i {
+		top: 8px;
+		font-size: 25px;
+		    
+	}
+	
+	.big-btn strong {
+		font-size: 10px;
+	}
+	
+	.big-btn small {
+		bottom: 6px;
+		font-size: 8px !important;
+	}
+	
+	.feature h3, .more-features h3, .screenshots h3, .update h3 {
+		font-size: 15px;
+	}
+	
+	.fon-img {
+		width: 70%;
+	    position: relative;
+	    left: 15%;
+	}
+	
+	.mobile-responsive h4, .responsive h4, .icons h4, .copyright h4 {
+		font-size: 12px;
+	}
+	
+	.icons {
+		left: 22%;
+	}
+
+	.ifon-img {
+		width: 94%;
+	}
+	
+	.section2 {
+		height: 300px;
+	}
+	
+	.blockquote {
+		font-size: 15px;
+	} 
+	
+	.section3 {
+		height: 200px;
+	}
+	
+	#fade-quote-carousel blockquote {
+		margin: 5px 0 20px;
+	}
+	
+	.section5 {
+		height: 250px;
+	}
+	
+	.update-input-field {
+		height: 39px;
+		font-size: 10px;
+	}
+	
+	.updates button {
+		padding: 12px 18px;
+		font-size: 10px;
+	}
+	
+	.half-circle {
+		margin-top: 11.2%;
+	}
+	
+	.big-btn1 i {
+		top: 8px;
+		font-size: 25px;
+	}
+	
+	.big-btn1 {
+		padding: 2px 25px;
+	}
+	
+	.big-btn1 strong {
+		font-size: 10px;
+	}
+	
+	.big-btn1 small {
+		font-size: 7px;
+	}
+}
+
+
+@media only screen 
+and (max-device-width : 767px) {
+	.logo-img {
+		width: 100px;
+	}
+	
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.navbar-default .navbar-toggle:hover {
+		background: #fff;
+	}
+	
+	.navbar-default .navbar-toggle:focus {
+		background: #fff;
+	}
+	
+	.nav-link li {
+		background: #fff;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	.nav-link li a {
+		font-size: 9px;
+		padding: 5px 5px;
+	}
+	.nav-link li:last-child {
+		border: 0;
+	}
+	
+	.nav-link li:last-child a {
+		padding: 11px 20px;
+		padding-bottom: 0;
+	}
+	
+	.nav-link {
+		width: 140%;
+	}
+	
+	.navbar-default .navbar-collapse {
+		border-color: transparent;
+	}
+	
+	.download-app-btn {
+		padding: 6px 10px;
+		font-size: 9px;
+		bottom: 5px;
+	}
+	
+	.header-content {
+		height: 34px;
+	}
+	
+	.header {
+		height: 250px;
+	}
+	
+	.app h1 {
+		width: 60%;
+		font-size: 10px;
+		padding: 0 6px;
+		line-height: 1.5;
+	}
+	
+	.app p {
+		width: 50%;
+		font-size: 8px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	
+	.big-btn strong, .android-btn strong {
+		font-size: 6px;
+	}
+	
+	.big-btn small, .android-btn small {
+		font-size: 4px !important;
+		bottom: 5px;
+		
+	}
+	
+	.big-btn i, .android-btn i {
+		font-size: 16px;
+
+		
+	}
+	
+	.btn-text {
+		right: 14%;
+		top: 2px;
+	}
+	
+	.big-btn {
+		padding: 0px 12px;
+		font-size: 7px;
+	}
+	
+	.mobile-img {
+		position: absolute;
+		width: 58%;
+		top: 7px;
+		left: 55%;
+	}
+	
+	.feature h3, .more-features h3, .screenshots h3, .update h3 {
+		font-size: 12px;
+	}
+	
+	.feature::after, .more-features::after, .screenshots::after, .update::after {
+		width: 50px;
+	}
+	
+	.feature-p, .responsive p, .mobile-responsive p, .p-fon, .icons p, .screenshots-p, .update-p {
+		font-size: 8px;
+	}
+	
+	.responsive {
+		left: 0px;
+	}
+	
+	.responsive h4, .mobile-responsive h4, .icons h4, .copyright h4 {
+		font-size: 10px;
+	}
+	
+	.mobile-responsive {
+		right: 0px;
+	}
+	
+	.section1 {
+		bottom: 0px
+	}
+	
+	.bookmark {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.bookmark i {
+		font-size: 20px;
+		left: 12px;
+		top: 10px;
+
+	}
+	
+	.ifon-img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.section2 {
+		height: 225px;
+		bottom: 0px;
+	}
+	
+	.section3 {
+		height: 200px;
+		bottom: 0px;
+	}
+	
+	#fade-quote-carousel blockquote {
+		margin: 2px 0 20px;
+		font-size: 10px;
+	}
+	
+	.image {
+		margin-bottom: 10px;
+	}
+	
+	.section5 {
+		height: 175px;
+	}
+	
+	.updates button {
+		font-size: 8px;
+		padding: 9px 6px;
+	}
+	
+	.updates {
+		width: 70%;
+		left: 30px;
+		bottom: 10px;
+	}
+	
+	.update-input-field {
+		font-size: 8px;
+		height: 32px;
+	}
+	
+	.big-btn1 strong, .android-btn1 strong {
+		font-size: 6px;
+	}
+	
+	.big-btn1 small, .android-btn1 small {
+		font-size: 4px !important;
+		bottom: 5px;
+		
+	}
+	
+	.big-btn1 i, .android-btn1 i {
+		font-size: 16px;
+		top: 0px;
+	}
+	
+	.btn-text1 {
+		right: 14%;
+		top: 2px;
+	}
+	
+	.big-btn1 {
+		padding: 0px 12px;
+		font-size: 7px;
+	}
+	
+	.half-circle {
+		height: 18px;
+		width: 40px;
+		left: 46%;
+		margin-top: 0%;
+	}
+	
+	.font-awesome {
+		font-size: 13px !important;
+		left: 13px;
+		bottom: 4px;
+
+	}
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900');
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #000;
+}
+
+
+
+.close {
+	font-size: 80px;
+	font-weight: 100;
+	border: 1px solid #fff !important;
+	background: transparent !important;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 15px;
+	margin-right: 2%;
+	opacity: 0.3;
+	margin-top: 2%;
+	color: #fff;
+}
+
+.close:hover {
+	color: #fff;
+	border: 1px solid #fff !important;
+	background: transparent !important;
+}
+
+.close span {
+	position: relative;
+	bottom: 5px;
+}
+
+.header form {
+	margin-top: 26%;
+}
+
+.header input {
+	background: transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #ddd;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	padding-left: 0 !important;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 12px;
+	 height: 100%;
+	 width: 100%;
+}
+
+.header input:focus {
+	border-bottom: 1px solid #ddd;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	box-shadow: none;
+}
+
+.header .btn-default {
+	background: transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #ddd;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	line-height: 2;
+	padding-right: 0 !important;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 12px;
+	 height: 100%;
+	 width: 100%;
+}
+
+.btn-default:focus {
+	background: transparent !important;
+	border-bottom: 1px solid #ddd !important;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+}
+
+input::placeholder {
+	color: #fff !important;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.header i {
+	color: #ddd;
+	font-size: 25px;
+	line-height: 0;
+}
+
+
+
+/* Media query */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	.container {
+		width: 100%;
+	}
+	
+	input::placeholder {
+		font-size: 12px;
+	}
+	
+	.header .btn-default {
+		line-height: 2.1;
+	}
+	
+	.close {
+		width: 40px;
+		height: 40px;
+		font-size: 60px;
+	}
+	
+	.header i {
+		font-size: 18px;
+	}
+	
+	.header input, .header .btn-default {
+		padding: 10px 12px;
+	}
+}
+
+@media only screen 
+and (max-device-width : 767px) {
+
+	
+	.close {
+		width: 30px;
+		height: 30px;
+		font-size: 40px;
+	}
+	
+	.close span {
+		bottom: 4px;
+	}
+	
+	input::placeholder {
+		font-size: 11px;
+	}
+	
+	.header i {
+		font-size: 15px;
+	}
+	
+	.header input, .header .btn-default {
+		padding: 10px 12px;
+	}
+}
